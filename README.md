@@ -20,7 +20,7 @@ Moreover, the application fetches data from a RESTful API using Knex and tracks 
 ## Pages
 
 ### Register
-- Page where users can register for an account and log in through user authentication. It will notify the user if their credentials are already registered and if their password doesn't match.
+- Page where users can register for an account and log in through user authentication. It will notify the user if their credentials are already registered and if their password doesn't match. Will also hash the password when added to the database for enhanced security.
 
 ### Sign in
 - Authenticates the user's credentials to see if they match any entries within the database.
